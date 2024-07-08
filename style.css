@@ -101,3 +101,20 @@ h1{
     font-size: 32px;
     background-color: lightgray;
 }
+/*--------FOOTER--------*/
+footer{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: lightgray;
+    padding:40px 10px;
+    margin-bottom: -30px;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    padding: 10px;
+}
