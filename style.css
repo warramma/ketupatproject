@@ -39,6 +39,10 @@
     padding-left: 10px;
     font-weight: 800;
 }
+#logo img{
+    width: 32px;
+    height: auto;
+}
 /*--------MAIN---------*/
 main{
     margin: 100px auto;
@@ -130,6 +134,11 @@ h1{
     background-color: lightgray;
     text-align: center;
     font-weight: 700;
+}
+.learn-more .card img{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
 }
 .learn-more .card .description{
     padding: 20px;
