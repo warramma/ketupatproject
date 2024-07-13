@@ -149,6 +149,7 @@ quote{
 .learn-more .card .title{
     font-size: 32px;
     padding: 15px 2px;
+    width: 100%;
     background-color: lightgray;
     text-align: center;
     font-weight: 700;
@@ -208,4 +209,37 @@ footer ul li a{
 }
 .credits a{
     text-decoration: underline;
+}
+/*---------KAUSES PAGE---------*/
+.kauses.cards{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.kauses .card{
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.kauses .card img{
+    width: 100%;
+}
+.kauses .card a{
+    text-decoration: none;
+    color: black;
+    font-family: "Kode Mono", monospace;
+    font-weight: 800;
+    font-size: 30px;
+}
+.kauses .card a p{
+    margin-top: -25px;
+}
+.kauses .card:hover{
+    border: 1px solid lightgray;
+    border-radius: 10px;
 }
